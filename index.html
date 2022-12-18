@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/b40b53770d.js" crossorigin="anonymous"></script>
   <title>Ecommerce Website</title>
   <link rel="stylesheet" href="./dist/css/main.min.css">
@@ -26,11 +26,14 @@
         <li><a href="blog.html">Blog</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        <li><a href="cart.html" class="cart-bag"><i class="fa-solid fa-bag-shopping"></i></a></li>
       </ul>
     </div>
+    <div id="mobile" class="hamburger-container">
+      <a href="cart.html" class="cart-icon"><i class="fa-solid fa-bag-shopping"></i></a>
+      <div class="stick"></div>
+    </div>
   </section>
-
 
   <section id="hero" class="hero-section">
 
@@ -41,7 +44,6 @@
     <button>Shop Now</button>
 
   </section>
-
 
   <section id="features" class="features section-p1">
     <div class="features-box">
@@ -66,7 +68,6 @@
     </div>
   </section>
 
-
   <section id="products-one" class="products-one section-p1">
     <h2>Featured Products</h2>
     <p>Summer Collection New Design</p>
@@ -74,7 +75,7 @@
     <div class="products-container">
 
       <div class="product-box">
-        <img src="./dist/img/shirt1.webp" alt="">
+        <img src="./dist/img/shirt1.webp" alt="product photo">
         <div class="description">
           <span>brand</span>
           <h5>Name of the product</h5>
@@ -91,7 +92,7 @@
       </div>
 
       <div class="product-box">
-        <img src="./dist/img/f5.jpg" alt="">
+        <img src="./dist/img/f5.jpg" alt="product photo">
         <div class="description">
           <span>brand</span>
           <h5>Name of the product</h5>
@@ -108,7 +109,7 @@
       </div>
 
       <div class="product-box">
-        <img src="./dist/img/shirt2.webp" alt="">
+        <img src="./dist/img/shirt2.webp" alt="product photo">
         <div class="description">
           <span>brand</span>
           <h5>Name of the product</h5>
@@ -125,7 +126,7 @@
       </div>
 
       <div class="product-box">
-        <img src="./dist/img/shirt4.jpg" alt="">
+        <img src="./dist/img/shirt4.jpg" alt="product photo">
         <div class="description">
           <span>brand</span>
           <h5>Name of the product</h5>
@@ -142,7 +143,7 @@
       </div>
 
       <div class="product-box">
-        <img src="./dist/img/shirt5.webp" alt="">
+        <img src="./dist/img/shirt5.webp" alt="product photo">
         <div class="description">
           <span>brand</span>
           <h5>Name of the product</h5>
@@ -159,7 +160,7 @@
       </div>
 
       <div class="product-box">
-        <img src="./dist/img/shirt4.jpg" alt="">
+        <img src="./dist/img/shirt4.jpg" alt="product photo">
         <div class="description">
           <span>brand</span>
           <h5>Name of the product</h5>
@@ -176,7 +177,7 @@
       </div>
 
       <div class="product-box">
-        <img src="./dist/img/shirt1.webp" alt="">
+        <img src="./dist/img/shirt1.webp" alt="product photo">
         <div class="description">
           <span>brand</span>
           <h5>Name of the product</h5>
@@ -193,7 +194,7 @@
       </div>
 
       <div class="product-box">
-        <img src="./dist/img/f6.jpg" alt="">
+        <img src="./dist/img/f6.jpg" alt="product photo">
         <div class="description">
           <span>brand</span>
           <h5>Name of the product</h5>
@@ -213,8 +214,264 @@
     </div>
   </section>
 
+  <section id="banner" class="banner section-m1">
+    <h4>Rapair Services</h4>
+    <h2>Up to <span>70% Off</span> - All t-shirts & Accessories</h2>
+    <button class="banner-btn normal">Explore More</button>
+  </section>
+
+  <section id="products-one" class="products-one section-p1">
+    <h2>New Arrivals</h2>
+    <p>New Modern Design Collection</p>
+    
+    <div class="products-container">
+
+      <div class="product-box">
+        <img src="./dist/img/shirt1.webp" alt="product photo">
+        <div class="description">
+          <span>brand</span>
+          <h5>Name of the product</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$99</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart-btn"></i></a>
+      </div>
+
+      <div class="product-box">
+        <img src="./dist/img/n2.jpg" alt="product photo">
+        <div class="description">
+          <span>brand</span>
+          <h5>Name of the product</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$99</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart-btn"></i></a>
+      </div>
+
+      <div class="product-box">
+        <img src="./dist/img/n3.jpg" alt="product photo">
+        <div class="description">
+          <span>brand</span>
+          <h5>Name of the product</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$99</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart-btn"></i></a>
+      </div>
+
+      <div class="product-box">
+        <img src="./dist/img/n4.jpg" alt="product photo">
+        <div class="description">
+          <span>brand</span>
+          <h5>Name of the product</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$99</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart-btn"></i></a>
+      </div>
+
+      <div class="product-box">
+        <img src="./dist/img/n5.jpg" alt="product photo">
+        <div class="description">
+          <span>brand</span>
+          <h5>Name of the product</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$99</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart-btn"></i></a>
+      </div>
+
+      <div class="product-box">
+        <img src="./dist/img/n6.jpg" alt="product photo">
+        <div class="description">
+          <span>brand</span>
+          <h5>Name of the product</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$99</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart-btn"></i></a>
+      </div>
+
+      <div class="product-box">
+        <img src="./dist/img/n7.jpg" alt="product photo">
+        <div class="description">
+          <span>brand</span>
+          <h5>Name of the product</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$99</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart-btn"></i></a>
+      </div>
+
+      <div class="product-box">
+        <img src="./dist/img/n8.jpg" alt="product photo">
+        <div class="description">
+          <span>brand</span>
+          <h5>Name of the product</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <h4>$99</h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart-btn"></i></a>
+      </div>
 
 
+    </div>
+  </section>
+
+  <section id="second-banner" class="second-banner section-p1">
+    <div class="banner-box">
+      <h4>crazy deals</h4>
+      <h2>buy 1 get 1 <span class="free">free</span></h2>
+      <span>The best classic dresses on sale</span>
+      <button class="white">Check Out</button>
+      <div class="shadow"></div>
+    </div>
+    <div class="banner-box box-two">
+      <h4>spring/summer</h4>
+      <h2>upcomming season</h2>
+      <span>Be ready, new products comming!</span>
+      <button class="white">Collection</button>
+      <div class="shadow"></div>
+    </div>
+  </section>
+
+  <section class="banner-three">
+  
+    <div class="banner-box">  
+      <h2>seasonal sale</h2>
+      <h3>Winter Collection -50% OFF</h3>     
+      <div class="shadow"></div>
+    </div>
+    <div class="banner-box two">  
+      <h2>new footwear collection</h2>
+      <h3>Spring / Summer 2023</h3>     
+      <div class="shadow"></div>
+    </div>
+    <div class="banner-box three">  
+      <h2>t-shirts</h2>
+      <h3>New Trendy Prints</h3>     
+      <div class="shadow"></div>
+    </div>
+
+  </section>
+
+
+  <section class="newsletter section-p1 section-m1">
+    <div class="newsletter-text">
+      <h4>Sign Up For Newsletters</h4>
+      <p>Get email updates about our latest shop and <span>special offers.</span></p>
+    </div>
+
+    <div class="form">
+      <input type="text" placeholder="Your email address">
+      <button class="normal">Sign Up</button>
+    </div>
+  </section>
+
+
+
+  <footer class="section-p1">
+
+    <div class="col">
+      <img src="/dist/img/company_logo3.png" class="logo" alt="company logo">
+      <h4>Contact</h4>
+      <p><strong>Address:</strong> 3 Blounts Rd, Birmingham B23 7BU, Birmingham</p>
+      <p><strong>Phone:</strong> +44 1332 412251</p>
+      <p><strong>Hours:</strong> 10:00-20:00 Mon-Sat</p>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>Form App Store or Google Play</p>
+      <div class="row">
+        <img src="/dist/img/app.jpg" alt="app store logo">
+        <img src="/dist/img/play.jpg" alt="google play logo">
+      </div>
+      <p>Secured Payment Gateways</p>
+      <img src="./dist/img/pay.png" alt="payment logos">
+    </div>
+
+    <div class="copyright">
+      <p>© 2023 Company Name</p>
+    </div>
+
+  </footer>
 
 
 
